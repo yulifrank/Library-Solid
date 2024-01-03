@@ -25,24 +25,28 @@ namespace Solid.Data.Repository
 
         public void DeleteMember(int id)
         {
-            var temp = _context.Members.Find(x => x.MemberId == id);
+            var temp = _context.Members.Find(id);
             _context.Members.Remove(temp);
+            _context.SaveChanges();
+
         }
+
 
         public Member GetById(int id)
         {
-            return _context.Members.Find(x => x.MemberId == id);
+            return _context.Members.Find(id);
         }
 
         public List<Member> GetMembers()
         {
-            return _context.Members;
+            return _context.Members.ToList();
         }
 
         public Member UpdateMember(int id, Member member)
         {
-            var temp = _context.Members.Find(x => x.MemberId == id);
+            var temp = _context.Members.Find(id);
             temp = member;
+            _context.SaveChanges();
             return temp;
         }
     }

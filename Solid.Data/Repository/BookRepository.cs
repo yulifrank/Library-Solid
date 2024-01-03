@@ -24,25 +24,28 @@ namespace Solid.Data.Repository
 
         public void DeleteBook(int id)
         {
-            var temp = _context.Books.Find(x => x.BookId == id);
+            var temp = _context.Books.Find(id);
             _context.Books.Remove(temp);
+            _context.SaveChanges();
         }
 
         public List<Book> GetBooks()
         {
-            return _context.Books;
+            return _context.Books.ToList();
         }
 
         public Book GetById(int id)
         {
-            return _context.Books.Find(u => u.BookId == id);
+            return _context.Books.Find(id);
         }
 
         public Book UpdateBook(int id, Book book)
         {
-            var temp = _context.Books.Find(u => u.BookId == id);
+            var temp = _context.Books.Find(id);
             temp = book;
             return temp;
+            _context.SaveChanges();
+
         }
     }
 }

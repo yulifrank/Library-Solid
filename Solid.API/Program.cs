@@ -21,6 +21,9 @@ builder.Services.AddScoped<IMemberRepository,MemberRepository>();
 builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddScoped<ILoanService,LoanService>();
 builder.Services.AddScoped<IBookService,BookService>();
+builder.Services.AddDbContext<DataContext>();
+//צריך למחוק מהשו אחר? כי זה לא עשה לי שום שגיאה
+//זה לא עשה לך? תראי זה שגיאה מה בעיקרון הייתי אמורה לעשות? רק לשנות את המחלקה קונטקסט נכון?
 
 var app = builder.Build();
 

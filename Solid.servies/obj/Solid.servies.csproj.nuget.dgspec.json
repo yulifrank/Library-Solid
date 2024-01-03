@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.servies\\Solid.servies.csproj": {}
+    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.servies\\Solid.servies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\Solid.Core.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\Solid.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.servies\\Solid.servies.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.servies\\Solid.servies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.servies\\Solid.servies.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.servies\\Solid.servies.csproj",
         "projectName": "Solid.servies",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.servies\\Solid.servies.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.servies\\Solid.servies.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.servies\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.servies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Solid\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }
