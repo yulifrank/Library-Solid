@@ -3,13 +3,17 @@ using Solid.Core.Services;
 using Solid.Data;
 using Solid.Data.Repository;
 using Solid.servies.Services;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    options.JsonSerializerOptions.WriteIndented = true;
+});// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -22,8 +26,7 @@ builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddScoped<ILoanService,LoanService>();
 builder.Services.AddScoped<IBookService,BookService>();
 builder.Services.AddDbContext<DataContext>();
-//צריך למחוק מהשו אחר? כי זה לא עשה לי שום שגיאה
-//זה לא עשה לך? תראי זה שגיאה מה בעיקרון הייתי אמורה לעשות? רק לשנות את המחלקה קונטקסט נכון?
+
 
 var app = builder.Build();
 

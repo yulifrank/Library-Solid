@@ -1,4 +1,5 @@
-﻿using Solid.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Solid.Core.Entities;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -37,9 +38,9 @@ namespace Solid.Data.Repository
             return _context.Members.Find(id);
         }
 
-        public List<Member> GetMembers()
+        public IEnumerable<Member> GetMembers()
         {
-            return _context.Members.ToList();
+            return _context.Members.Include(x=>x.Loans);
         }
 
         public Member UpdateMember(int id, Member member)

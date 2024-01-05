@@ -27,7 +27,7 @@ namespace Solid.servies.Services
             _bookRepositor.DeleteBook(id);
         }
 
-        public List<Book> GetBooks()
+        public IEnumerable <Book> GetBooks()
         {
             return _bookRepositor.GetBooks();
         }

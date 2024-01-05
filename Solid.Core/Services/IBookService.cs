@@ -9,7 +9,7 @@ namespace Solid.Core.Services
 {
     public interface IBookService
     {
-         List<Book> GetBooks();
+         IEnumerable<Book> GetBooks();
 
          Book GetById(int id);
         void AddBook(Book user);

@@ -22,6 +22,21 @@ namespace Solid.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("LoanMember", b =>
+                {
+                    b.Property<int>("LoansLoanId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MembersMemberId")
+                        .HasColumnType("int");
+
+                    b.HasKey("LoansLoanId", "MembersMemberId");
+
+                    b.HasIndex("MembersMemberId");
+
+                    b.ToTable("LoanMember");
+                });
+
             modelBuilder.Entity("Solid.Core.Entities.Book", b =>
                 {
                     b.Property<int>("BookId")
@@ -50,6 +65,9 @@ namespace Solid.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoanId"), 1L, 1);
 
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
@@ -58,6 +76,8 @@ namespace Solid.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("LoanId");
+
+                    b.HasIndex("BookId");
 
                     b.ToTable("Loans");
                 });
@@ -80,6 +100,37 @@ namespace Solid.Data.Migrations
                     b.HasKey("MemberId");
 
                     b.ToTable("Members");
+                });
+
+            modelBuilder.Entity("LoanMember", b =>
+                {
+                    b.HasOne("Solid.Core.Entities.Loan", null)
+                        .WithMany()
+                        .HasForeignKey("LoansLoanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Solid.Core.Entities.Member", null)
+                        .WithMany()
+                        .HasForeignKey("MembersMemberId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Solid.Core.Entities.Loan", b =>
+                {
+                    b.HasOne("Solid.Core.Entities.Book", "Book")
+                        .WithMany("Loans")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("Solid.Core.Entities.Book", b =>
+                {
+                    b.Navigation("Loans");
                 });
 #pragma warning restore 612, 618
         }

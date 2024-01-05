@@ -1,4 +1,5 @@
-﻿using Solid.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Solid.Core.Entities;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -29,9 +30,9 @@ namespace Solid.Data.Repository
             _context.SaveChanges();
         }
 
-        public List<Book> GetBooks()
+        public IEnumerable<Book> GetBooks()
         {
-            return _context.Books.ToList();
+            return _context.Books.Include(x=>x.Loans);
         }
 
         public Book GetById(int id)

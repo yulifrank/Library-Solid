@@ -10,7 +10,7 @@ namespace Solid.Core.Repositories
     public interface IBookRepository
     {
             
-        List<Book> GetBooks();
+        IEnumerable<Book> GetBooks();
 
         Book GetById(int id);
 

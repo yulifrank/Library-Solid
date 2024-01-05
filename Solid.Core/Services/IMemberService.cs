@@ -9,7 +9,7 @@ namespace Solid.Core.Services
 {
     public interface IMemberService
     {
-         List<Member> GetMembers();
+        IEnumerable<Member> GetMembers();
          Member GetById(int id);
         void AddMember(Member user);
 

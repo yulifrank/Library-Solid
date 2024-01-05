@@ -6,15 +6,11 @@ namespace Solid.Core.Entities
         public int MemberId { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
-
+        public List<Loan> Loans { get; set; }
         static private int count = 0;
         public Member()
         {
             MemberId = count++;
         }
-        
-
-
-
     }
 }

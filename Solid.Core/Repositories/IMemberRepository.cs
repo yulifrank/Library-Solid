@@ -9,7 +9,7 @@ namespace Solid.Core.Repositories
 {
     public interface IMemberRepository
     {
-        List<Member> GetMembers();
+        IEnumerable<Member> GetMembers();
 
         Member GetById(int id);
 

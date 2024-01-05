@@ -32,14 +32,16 @@ namespace Solid.servies.Services
             return _memberRepository.GetById(id);
         }
 
-        public List<Member> GetMembers()
-        {
-            return _memberRepository.GetMembers();                             
-        }
+       
 
         public void UpdateMember(int id, Member user)
         {
             _memberRepository.UpdateMember(id, user);
+        }
+
+        IEnumerable<Member> IMemberService.GetMembers()
+        {
+            return _memberRepository.GetMembers();
         }
     }
 }
