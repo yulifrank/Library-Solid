@@ -12,11 +12,8 @@ namespace Solid.Core.Repositories
         IEnumerable<Member> GetMembers();
 
         Member GetById(int id);
-
-        Member AddMember(Member user);
-
-        Member UpdateMember(int id, Member user);
-
-        void DeleteMember(int id);
+        Task<Member> AddMemberAsync(Member user);
+        Task<Member> UpdateMemberAsync(int id, Member user); 
+        Task DeleteMemberAsync(int id);
     }
 }

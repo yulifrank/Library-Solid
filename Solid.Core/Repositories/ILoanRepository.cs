@@ -9,14 +9,14 @@ namespace Solid.Core.Repositories
 {
     public interface ILoanRepository
     {
-        List<Loan> GetLoans();
+       List<Loan> GetLoans();
 
         Loan GetById(int id);
 
-        Loan AddLoan(Loan Loan);
+        Task<Loan> AddLoanAsync(Loan Loan);
 
-        Loan UpdateLoan(int id, Loan Loan);
+        Task<Loan> UpdateLoanAsync(int id, Loan Loan);
 
-        void DeleteLoan(int id);
+        Task DeleteLoanAsync(int id);
     }
 }

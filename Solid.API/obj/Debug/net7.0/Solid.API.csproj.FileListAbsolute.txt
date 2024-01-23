@@ -109,3 +109,5 @@ C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Soli
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.API\obj\Debug\net7.0\Solid.API.pdb
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.API\obj\Debug\net7.0\Solid.API.genruntimeconfig.cache
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.API\obj\Debug\net7.0\ref\Solid.API.dll
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

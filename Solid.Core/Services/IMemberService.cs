@@ -11,10 +11,8 @@ namespace Solid.Core.Services
     {
         IEnumerable<Member> GetMembers();
          Member GetById(int id);
-        void AddMember(Member user);
-
-        void UpdateMember(int id, Member user);
-
-        void DeleteMember(int id);
+        Task<Member> AddMemberAsync(Member user);
+        Task<Member> UpdateMemberAsync(int id, Member user);
+        Task DeleteMemberAsync(int id);
     }
 }

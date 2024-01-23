@@ -12,10 +12,10 @@ namespace Solid.Core.Services
          IEnumerable<Book> GetBooks();
 
          Book GetById(int id);
-        void AddBook(Book user);
+        Task<Book> AddBookAsync(Book user);
 
-        void UpdateBook(int id, Book user);
+        Task< Book> UpdateBookAsync(int id, Book user);
 
-        void DeleteBook(int id);
+        Task DeleteBookAsync(int id);
     }
 }

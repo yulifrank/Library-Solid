@@ -6,16 +6,12 @@
         public string Name { get; set; }
         public DateTime Date { get; set; }
         // Navigation properties
-        public int BookId { get; set; } // Foreign key
+        public int MemberId { get; set; } // Foreign key
 
-        public Book Book { get; set; }
-        public List<Member> Members { get; set; }
+        public Member Member { get; set; }
+        public List<Book> Books { get; set; }
 
-        static private int count = 0;
-        public Loan()
-        {
-            LoanId = count++;
-        }
+       
 
 
 

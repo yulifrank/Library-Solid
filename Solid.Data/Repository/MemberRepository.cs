@@ -13,41 +13,36 @@ namespace Solid.Data.Repository
     {
 
         private readonly DataContext _context;
-
         public MemberRepository(DataContext context)
         {
             _context = context;
         }
-        public Member AddMember(Member member)
+        public  async Task< Member> AddMemberAsync(Member member)
         {
             _context.Members.Add(member);
+           await _context.SaveChangesAsync();
             return member;
         }
-
-        public void DeleteMember(int id)
+        public async Task DeleteMemberAsync(int id)
         {
             var temp = _context.Members.Find(id);
             _context.Members.Remove(temp);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
         }
-
-
         public Member GetById(int id)
         {
             return _context.Members.Find(id);
         }
-
         public IEnumerable<Member> GetMembers()
         {
             return _context.Members.Include(x=>x.Loans);
         }
-
-        public Member UpdateMember(int id, Member member)
+        public async Task< Member> UpdateMemberAsync(int id, Member member)
         {
             var temp = _context.Members.Find(id);
             temp = member;
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return temp;
         }
     }

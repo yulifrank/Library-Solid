@@ -14,10 +14,12 @@ namespace Solid.Core.Repositories
 
         Book GetById(int id);
 
-        Book AddBook(Book user);
+        Task<Book> AddBookAsync(Book user);
 
-        Book UpdateBook(int id, Book user);
+        Task<Book> UpdateBookAsync(int id, Book user);
 
-        void DeleteBook(int id);
+        Task DeleteBookAsync(int id);
     }
 }
+
+

@@ -17,14 +17,16 @@ namespace Solid.servies.Services
             _loanRepository = loanRepository;
         }
 
-        public void AddLoan(Loan Loan)
+        public async Task<Loan> AddLoanAsync(Loan Loan)
         {
-            _loanRepository.AddLoan(Loan);
+            await _loanRepository.AddLoanAsync(Loan);
+            return Loan;
+            
         }
 
-        public void DeleteLoan(int id)
+        public async Task DeleteLoanAsync(int id)
         {
-            _loanRepository.DeleteLoan(id);
+           await _loanRepository.DeleteLoanAsync(id);
         }
 
         public Loan GetById(int id)
@@ -37,9 +39,10 @@ namespace Solid.servies.Services
             return _loanRepository.GetLoans();
         }
 
-        public void UpdateLoan(int id, Loan Loan)
+        public async Task<Loan> UpdateLoanAsync(int id, Loan Loan)
         {
-            _loanRepository.UpdateLoan(id, Loan);
+          return await _loanRepository.UpdateLoanAsync(id, Loan);
+     
         }
     }
 }

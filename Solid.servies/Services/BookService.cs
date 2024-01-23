@@ -11,35 +11,37 @@ namespace Solid.servies.Services
 {
     public class BookService : IBookService
     {
-        private readonly IBookRepository _bookRepositor;
-        public BookService(IBookRepository bookRepositor)
+        private readonly IBookRepository _bookRepository;
+        public BookService(IBookRepository bookRepository)
         {
-            _bookRepositor = bookRepositor;
+            _bookRepository = bookRepository;
         }
 
-        public void AddBook(Book user)
+        public async Task<Book> AddBookAsync(Book user)
         {
-            _bookRepositor.AddBook(user);
+           await  _bookRepository.AddBookAsync(user);
+            return user;
         }
 
-        public void DeleteBook(int id)
+        public async Task DeleteBookAsync(int id)
         {
-            _bookRepositor.DeleteBook(id);
+           await _bookRepository.DeleteBookAsync(id);
         }
 
         public IEnumerable <Book> GetBooks()
         {
-            return _bookRepositor.GetBooks();
+            return _bookRepository.GetBooks();
         }
 
         public Book GetById(int id)
         {
-            return _bookRepositor.GetById(id);
+            return _bookRepository.GetById(id);
         }
 
-        public void UpdateBook(int id, Book user)
+        public async Task<Book> UpdateBookAsync(int id, Book user)
         {
-            _bookRepositor.UpdateBook(id, user);
+           await _bookRepository.UpdateBookAsync(id, user);
+            return user;
         }
     }
 }

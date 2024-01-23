@@ -12,10 +12,10 @@ namespace Solid.Core.Services
          List<Loan> GetLoans();
 
          Loan GetById(int id);
-        void AddLoan(Loan Loan);
+        Task<Loan> AddLoanAsync(Loan Loan);
 
-        void UpdateLoan(int id, Loan Loan);
+        Task<Loan> UpdateLoanAsync(int id, Loan Loan);
 
-        void DeleteLoan(int id);
+        Task DeleteLoanAsync(int id);
     }
 }

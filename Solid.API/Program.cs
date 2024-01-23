@@ -1,3 +1,4 @@
+using Solid.Core;
 using Solid.Core.Repositories;
 using Solid.Core.Services;
 using Solid.Data;
@@ -26,6 +27,8 @@ builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddScoped<ILoanService,LoanService>();
 builder.Services.AddScoped<IBookService,BookService>();
 builder.Services.AddDbContext<DataContext>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 
 
 var app = builder.Build();

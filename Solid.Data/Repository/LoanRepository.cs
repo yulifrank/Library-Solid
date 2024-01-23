@@ -12,18 +12,18 @@ namespace Solid.Data.Repository
         {
             _context = context;
         }
-        public Loan AddLoan(Loan Loan)
+        public async Task< Loan >AddLoanAsync(Loan Loan)
         {
             _context.Loans.Add(Loan);
-            _context.SaveChanges();
+          await   _context.SaveChangesAsync();
             return Loan;
         }
 
-        public void DeleteLoan(int id)
+        public async Task DeleteLoanAsync(int id)
         {
             var temp = _context.Loans.Find( id);
             _context.Loans.Remove(temp);
-            _context.SaveChanges();
+           await _context.SaveChangesAsync();
 
         }
 
@@ -37,11 +37,11 @@ namespace Solid.Data.Repository
             return _context.Loans.ToList();
         }
 
-        public Loan UpdateLoan(int id, Loan Loan)
+        public async Task<Loan> UpdateLoanAsync(int id, Loan Loan)
         {
             var temp = _context.Loans.Find(id);
             temp = Loan;
-            _context.SaveChanges();
+           await _context.SaveChangesAsync();
             return temp;
         }
     }

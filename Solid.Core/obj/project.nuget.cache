@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "T9P51GMuoyRfmBIqrOrSg7Q85mtszTxE6oLfSEKidkVFz99bugdFfnQTZNg5X0wgrHU/I02qfCiMx01oTIDjzg==",
+  "dgSpecHash": "Ot4fNBVpC3aKlBK4UJK4Z2Z1eVAAgO//PMpCPzjZ8j4frGZQXy19rw9lVdpSv6BvGX9mqaF/tVFTcgqD5kN+wg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Documents\\תכנות שנה ב\\דוטנט core\\Library-Solid\\Solid.Core\\Solid.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

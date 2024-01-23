@@ -17,22 +17,24 @@ namespace Solid.Data.Repository
         {
             _context = context;
         }
-        public Book AddBook(Book book)
+        public async Task< Book> AddBookAsync(Book book)
         {
             _context.Books.Add(book);
+            await _context.SaveChangesAsync();  
             return book;
         }
 
-        public void DeleteBook(int id)
+        public async Task DeleteBookAsync(int id)
         {
             var temp = _context.Books.Find(id);
             _context.Books.Remove(temp);
-            _context.SaveChanges();
+          await  _context.SaveChangesAsync();
+          
         }
 
         public IEnumerable<Book> GetBooks()
         {
-            return _context.Books.Include(x=>x.Loans);
+            return _context.Books;
         }
 
         public Book GetById(int id)
@@ -40,12 +42,12 @@ namespace Solid.Data.Repository
             return _context.Books.Find(id);
         }
 
-        public Book UpdateBook(int id, Book book)
+        public async Task<Book> UpdateBookAsync(int id, Book book)
         {
             var temp = _context.Books.Find(id);
             temp = book;
-            return temp;
-            _context.SaveChanges();
+           await  _context.SaveChangesAsync();
+            return  temp;
 
         }
     }

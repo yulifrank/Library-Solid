@@ -4,6 +4,7 @@ using Solid.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,14 +18,15 @@ namespace Solid.servies.Services
             _memberRepository = memberRepository;
         }
 
-        public void AddMember(Member user)
+        public async Task <Member> AddMemberAsync(Member member)
         {
-          _memberRepository.AddMember(user);
+         await _memberRepository.AddMemberAsync(member);
+            return member;
         }
 
-        public void DeleteMember(int id)
+        public async Task DeleteMemberAsync(int id)
         {
-            _memberRepository.DeleteMember(id);
+          await   _memberRepository.DeleteMemberAsync(id);
         }
 
         public Member GetById(int id)
@@ -34,9 +36,10 @@ namespace Solid.servies.Services
 
        
 
-        public void UpdateMember(int id, Member user)
+        public  async Task<Member> UpdateMemberAsync(int id, Member member)
         {
-            _memberRepository.UpdateMember(id, user);
+           return await _memberRepository.UpdateMemberAsync(id, member);
+              
         }
 
         IEnumerable<Member> IMemberService.GetMembers()

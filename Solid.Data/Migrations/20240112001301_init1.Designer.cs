@@ -12,8 +12,8 @@ using Solid.Data;
 namespace Solid.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240105010344_new db")]
-    partial class newdb
+    [Migration("20240112001301_init1")]
+    partial class init1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,21 +24,6 @@ namespace Solid.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("LoanMember", b =>
-                {
-                    b.Property<int>("LoansLoanId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MembersMemberId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LoansLoanId", "MembersMemberId");
-
-                    b.HasIndex("MembersMemberId");
-
-                    b.ToTable("LoanMember");
-                });
-
             modelBuilder.Entity("Solid.Core.Entities.Book", b =>
                 {
                     b.Property<int>("BookId")
@@ -46,6 +31,9 @@ namespace Solid.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookId"), 1L, 1);
+
+                    b.Property<int?>("LoanId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -55,6 +43,8 @@ namespace Solid.Data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("BookId");
+
+                    b.HasIndex("LoanId");
 
                     b.ToTable("Books");
                 });
@@ -67,11 +57,11 @@ namespace Solid.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoanId"), 1L, 1);
 
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("MemberId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -79,7 +69,7 @@ namespace Solid.Data.Migrations
 
                     b.HasKey("LoanId");
 
-                    b.HasIndex("BookId");
+                    b.HasIndex("MemberId");
 
                     b.ToTable("Loans");
                 });
@@ -104,33 +94,30 @@ namespace Solid.Data.Migrations
                     b.ToTable("Members");
                 });
 
-            modelBuilder.Entity("LoanMember", b =>
+            modelBuilder.Entity("Solid.Core.Entities.Book", b =>
                 {
                     b.HasOne("Solid.Core.Entities.Loan", null)
-                        .WithMany()
-                        .HasForeignKey("LoansLoanId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Solid.Core.Entities.Member", null)
-                        .WithMany()
-                        .HasForeignKey("MembersMemberId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("Books")
+                        .HasForeignKey("LoanId");
                 });
 
             modelBuilder.Entity("Solid.Core.Entities.Loan", b =>
                 {
-                    b.HasOne("Solid.Core.Entities.Book", "Book")
+                    b.HasOne("Solid.Core.Entities.Member", "Member")
                         .WithMany("Loans")
-                        .HasForeignKey("BookId")
+                        .HasForeignKey("MemberId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Book");
+                    b.Navigation("Member");
                 });
 
-            modelBuilder.Entity("Solid.Core.Entities.Book", b =>
+            modelBuilder.Entity("Solid.Core.Entities.Loan", b =>
+                {
+                    b.Navigation("Books");
+                });
+
+            modelBuilder.Entity("Solid.Core.Entities.Member", b =>
                 {
                     b.Navigation("Loans");
                 });
