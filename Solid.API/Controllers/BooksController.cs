@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Solid.API.Models;
 using Solid.Core.DTOs;
@@ -13,6 +14,8 @@ namespace Solid.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class BooksController : ControllerBase
     {
         private readonly    IBookService _bookService;

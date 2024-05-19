@@ -22,3 +22,4 @@ C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Soli
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Core\obj\Debug\net7.0\refint\Solid.Core.dll
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Core\obj\Debug\net7.0\Solid.Core.pdb
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Core\obj\Debug\net7.0\ref\Solid.Core.dll
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Core\obj\Debug\net7.0\Solid.Core.sourcelink.json

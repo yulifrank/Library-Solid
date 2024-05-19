@@ -23,8 +23,9 @@ C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Soli
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.AssemblyInfoInputs.cache
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.AssemblyInfo.cs
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.csproj.CoreCompileInputs.cache
-C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.csproj.CopyComplete
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.dll
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\refint\Solid.servies.dll
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.pdb
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\ref\Solid.servies.dll
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.servies.sourcelink.json
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.servies\obj\Debug\net7.0\Solid.se.3D2C9BFF.Up2Date

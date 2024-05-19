@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFF9283-F67E-4204-B49A-574010493178}|Solid.Core\\Solid.Core.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.core\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFF9283-F67E-4204-B49A-574010493178}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.api\\solid.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56054887-4E52-4F7F-87A3-B79913960A61}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\solid.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA81EDC-10CB-45A7-8766-14C6E6C238EB}|Solid.Data\\Solid.Data.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.data\\solid.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCA81EDC-10CB-45A7-8766-14C6E6C238EB}|Solid.Data\\Solid.Data.csproj|solutionrelative:solid.data\\solid.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFF9283-F67E-4204-B49A-574010493178}|Solid.Core\\Solid.Core.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.core\\solid.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EEFF9283-F67E-4204-B49A-574010493178}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\solid.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAAC9B1-1C8A-44ED-BABD-C9CE5CBB1AF9}|Solid.servies\\Solid.servies.csproj|c:\\users\\user1\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\library-solid\\solid.servies\\solid.servies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BAAC9B1-1C8A-44ED-BABD-C9CE5CBB1AF9}|Solid.servies\\Solid.servies.csproj|solutionrelative:solid.servies\\solid.servies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Core\\Entities\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Solid.Core\\Entities\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Core\\Entities\\LoginModel.cs",
+              "RelativeToolTip": "Solid.Core\\Entities\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:25:19.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:23:44.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Solid.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\appsettings.json",
+              "RelativeToolTip": "Solid.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T00:19:37.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Program.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Program.cs",
+              "RelativeToolTip": "Solid.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:17:57.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Solid.Data",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Data\\Solid.Data.csproj",
+              "RelativeDocumentMoniker": "Solid.Data\\Solid.Data.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Data\\Solid.Data.csproj",
+              "RelativeToolTip": "Solid.Data\\Solid.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T00:15:25.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Solid.servies",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.servies\\Solid.servies.csproj",
+              "RelativeDocumentMoniker": "Solid.servies\\Solid.servies.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.servies\\Solid.servies.csproj",
+              "RelativeToolTip": "Solid.servies\\Solid.servies.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T00:15:20.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:14:27.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Solid.API",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Solid.API.csproj",
+              "RelativeDocumentMoniker": "Solid.API\\Solid.API.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.API\\Solid.API.csproj",
+              "RelativeToolTip": "Solid.API\\Solid.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T00:15:07.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Solid.Core",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Core\\Solid.Core.csproj",
+              "RelativeDocumentMoniker": "Solid.Core\\Solid.Core.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\\u05D3\u05D5\u05D8\u05E0\u05D8 core\\Library-Solid\\Solid.Core\\Solid.Core.csproj",
+              "RelativeToolTip": "Solid.Core\\Solid.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T00:14:56.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

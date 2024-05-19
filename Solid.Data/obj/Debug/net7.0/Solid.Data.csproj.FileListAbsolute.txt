@@ -24,9 +24,10 @@ C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Soli
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.AssemblyInfoInputs.cache
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.AssemblyInfo.cs
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.csproj.CoreCompileInputs.cache
-C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.csproj.CopyComplete
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.dll
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\refint\Solid.Data.dll
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.pdb
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.genruntimeconfig.cache
 C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\ref\Solid.Data.dll
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.sourcelink.json
+C:\Users\user1\Documents\תכנות שנה ב\דוטנט core\Library-Solid\Solid.Data\obj\Debug\net7.0\Solid.Data.csproj.Up2Date
