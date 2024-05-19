@@ -22,7 +22,7 @@ A library management system built with C# and ASP.NET Core. The system allows fo
 1. Clone the repository to your local machine:
 
     ```sh
-    git clone https://github.com/yourusername/library-management-system.git
+    git clone https://github.com/yulifrank/library-management-system.git
     ```
 
 2. Navigate to the project directory:
@@ -99,7 +99,7 @@ A library management system built with C# and ASP.NET Core. The system allows fo
     Content-Type: application/json
 
     {
-      "id": 1,
+      "bookId": 1,
       "name": "Updated Book Name",
       "numberOfPages": 250
     }
