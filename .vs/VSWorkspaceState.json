@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Solid.API",
+    "\\Solid.API\\Controllers",
+    "\\Solid.Core",
+    "\\Solid.Core\\Entities"
+  ],
+  "SelectedNode": "\\Solid.API\\Controllers\\AuthController.cs",
+  "PreviewInSolutionExplorer": false
+}

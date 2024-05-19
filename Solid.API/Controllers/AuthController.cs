@@ -27,7 +27,7 @@ namespace Solid.API.Controllers
             {
                 var claims = new List<Claim>()
             {
-                new Claim(ClaimTypes.Name, "malkabr"),
+                new Claim(ClaimTypes.Name, "yyy"),
                 new Claim(ClaimTypes.Role, "teacher")
             };
 
