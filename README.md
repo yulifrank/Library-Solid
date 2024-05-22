@@ -28,7 +28,7 @@ A library management system built with C# and ASP.NET Core. The system allows fo
 2. Navigate to the project directory:
 
     ```sh
-    cd library-management-system
+    cd Library-Solid
     ```
 
 3. Install dependencies:
@@ -221,6 +221,4 @@ A library management system built with C# and ASP.NET Core. The system allows fo
 
 Yael Frank
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
